@@ -1,6 +1,6 @@
 # CubezillaGame
 
-A Game With a Cube Made in Unity by Dani and Balázs
+A Game With a Cube Made in Unity by Dani and Balázs.
 
 
 
