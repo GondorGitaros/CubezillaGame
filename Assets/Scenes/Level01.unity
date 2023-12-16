@@ -389,7 +389,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   rb: {fileID: 271856203}
-  FowardForce: 6500
+  FowardForce: 4000
   SideForce: 120
 --- !u!114 &271856209
 MonoBehaviour:
@@ -571,8 +571,8 @@ Transform:
   m_GameObject: {fileID: 590262497}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 4985}
-  m_LocalScale: {x: 15, y: 1, z: 10000}
+  m_LocalPosition: {x: 0, y: 0, z: 245}
+  m_LocalScale: {x: 15, y: 1, z: 500}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -728,63 +728,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
---- !u!1001 &1116701983
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 1333386253507865798, guid: ed6883bf00287704f9edff1e9bf745ba, type: 3}
-      propertyPath: m_Name
-      value: Barrier (6)
-      objectReference: {fileID: 0}
-    - target: {fileID: 2317513219932906132, guid: ed6883bf00287704f9edff1e9bf745ba, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -4
-      objectReference: {fileID: 0}
-    - target: {fileID: 2317513219932906132, guid: ed6883bf00287704f9edff1e9bf745ba, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 2317513219932906132, guid: ed6883bf00287704f9edff1e9bf745ba, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 114.7
-      objectReference: {fileID: 0}
-    - target: {fileID: 2317513219932906132, guid: ed6883bf00287704f9edff1e9bf745ba, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 2317513219932906132, guid: ed6883bf00287704f9edff1e9bf745ba, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2317513219932906132, guid: ed6883bf00287704f9edff1e9bf745ba, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2317513219932906132, guid: ed6883bf00287704f9edff1e9bf745ba, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2317513219932906132, guid: ed6883bf00287704f9edff1e9bf745ba, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2317513219932906132, guid: ed6883bf00287704f9edff1e9bf745ba, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2317513219932906132, guid: ed6883bf00287704f9edff1e9bf745ba, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: ed6883bf00287704f9edff1e9bf745ba, type: 3}
 --- !u!1 &1218968735
 GameObject:
   m_ObjectHideFlags: 0
@@ -843,9 +786,49 @@ PrefabInstance:
       propertyPath: m_Name
       value: Barrier (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 1527402291833838247, guid: ed6883bf00287704f9edff1e9bf745ba, type: 3}
+      propertyPath: m_Size.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1527402291833838247, guid: ed6883bf00287704f9edff1e9bf745ba, type: 3}
+      propertyPath: m_Center.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1527402291833838247, guid: ed6883bf00287704f9edff1e9bf745ba, type: 3}
+      propertyPath: m_Center.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1527402291833838247, guid: ed6883bf00287704f9edff1e9bf745ba, type: 3}
+      propertyPath: m_Center.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1527402291833838247, guid: ed6883bf00287704f9edff1e9bf745ba, type: 3}
+      propertyPath: m_Material
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 1527402291833838247, guid: ed6883bf00287704f9edff1e9bf745ba, type: 3}
+      propertyPath: m_IsTrigger
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1527402291833838247, guid: ed6883bf00287704f9edff1e9bf745ba, type: 3}
+      propertyPath: m_ProvidesContacts
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1527402291833838247, guid: ed6883bf00287704f9edff1e9bf745ba, type: 3}
+      propertyPath: m_ExcludeLayers.m_Bits
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1527402291833838247, guid: ed6883bf00287704f9edff1e9bf745ba, type: 3}
+      propertyPath: m_IncludeLayers.m_Bits
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2317513219932906132, guid: ed6883bf00287704f9edff1e9bf745ba, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: 2317513219932906132, guid: ed6883bf00287704f9edff1e9bf745ba, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -6
+      value: -5.45
       objectReference: {fileID: 0}
     - target: {fileID: 2317513219932906132, guid: ed6883bf00287704f9edff1e9bf745ba, type: 3}
       propertyPath: m_LocalPosition.y
@@ -1768,6 +1751,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Barrier
       objectReference: {fileID: 0}
+    - target: {fileID: 1527402291833838247, guid: ed6883bf00287704f9edff1e9bf745ba, type: 3}
+      propertyPath: m_Size.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1527402291833838247, guid: ed6883bf00287704f9edff1e9bf745ba, type: 3}
+      propertyPath: m_IsTrigger
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2317513219932906132, guid: ed6883bf00287704f9edff1e9bf745ba, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -1825,7 +1816,6 @@ SceneRoots:
   - {fileID: 271856207}
   - {fileID: 6619141322709322006}
   - {fileID: 1273856212}
-  - {fileID: 1116701983}
   - {fileID: 1419762235}
   - {fileID: 653139990}
   - {fileID: 1549781844}
